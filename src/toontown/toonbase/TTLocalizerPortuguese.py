@@ -27,38 +27,48 @@ SuitFont = 'phase_3/models/fonts/HGHanKointai.ttc'
 SignFont = 'phase_3/models/fonts/MickeyFont'
 MinnieFont = 'phase_3/models/fonts/MinnieFont'
 FancyFont = 'phase_3/models/fonts/Comedy'
-NametagFonts = ('phase_3/models/fonts/AnimGothic', 'phase_3/models/fonts/Aftershock', 'phase_3/models/fonts/JiggeryPokery', 'phase_3/models/fonts/Ironwork', 'phase_3/models/fonts/HastyPudding', 'phase_3/models/fonts/Comedy', 'phase_3/models/fonts/Humanist', 'phase_3/models/fonts/Portago', 'phase_3/models/fonts/Musicals', 'phase_3/models/fonts/Scurlock', 'phase_3/models/fonts/Danger', 'phase_3/models/fonts/Alie', 'phase_3/models/fonts/OysterBar', 'phase_3/models/fonts/RedDogSaloon')
-NametagFontNames = ('Usuário', 'Tremido', 'Arrepiante', 'Exorbitante', 'Bobo', 'Doido', 'Pratico', 'Nautico', 'Caprichoso', 'Estremecer', 'Ação', 'Poético', 'Passeio', 'Ocidental')
+NametagFonts = (
+    'phase_3/models/fonts/ImpressBT.ttf',
+    'phase_3/models/fonts/AnimGothic.bam',
+    'phase_3/models/fonts/Aftershock.bam',
+    'phase_3/models/fonts/JiggeryPokery.bam',
+    'phase_3/models/fonts/Ironwork.bam',
+    'phase_3/models/fonts/HastyPudding.bam',
+    'phase_3/models/fonts/Comedy.bam',
+    'phase_3/models/fonts/Humanist.bam',
+    'phase_3/models/fonts/Portago.bam',
+    'phase_3/models/fonts/Musicals.bam',
+    'phase_3/models/fonts/Scurlock.bam',
+    'phase_3/models/fonts/Danger.bam',
+    'phase_3/models/fonts/Alie.bam',
+    'phase_3/models/fonts/OysterBar.bam',
+    'phase_3/models/fonts/RedDogSaloon.bam',
+    'phase_3/models/fonts/PBN.ttf',
+)
+NametagFontNames = (
+    'Basico', 
+    'Tremido', 
+    'Arrepiante', 
+    'Exorbitante', 
+    'Bobo', 
+    'Doido', 
+    'Pratico', 
+    'Nautico', 
+    'Caprichoso', 
+    'Estremecer', 
+    'Ação', 
+    'Poético', 
+    'Passeio', 
+    'Ocidental'
+    'Pixelado'
+)
 NametagLabel = 'Nome'
-UnpaidNameTag = 'Basico'
-GM_1 = 'CONSELHO TOON'
-GM_2 = 'TROPA TOON'
-GM_3 = 'SOLDADO DA RESISTÊNCIA'
-BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
-BuildingNametagShadow = None
-ProductPrefix = 'TT'
-Mickey = 'Mickey'
-VampireMickey = 'VampireMickey'
-Minnie = 'Minnie'
-WitchMinnie = 'WitchMinnie'
-Donald = 'Donald'
-DonaldDock = 'DonaldDock'
-FrankenDonald = 'FrankenDonald'
-Daisy = 'Margarida'
-SockHopDaisy = 'SockHopDaisy'
-Goofy = 'Pateta'
-SuperGoofy = 'SuperGoofy'
-Pluto = 'Pluto'
-WesternPluto = 'WesternPluto'
+ScreenshotPath = 'user/screenshots/'
+GM_Names = ('CONSELHO TOON',
+  'TROPA TOON', 
+  'SOLDADO DA RESISTÊNCIA',
+  'GC')
 Flippy = 'Flippy'
-Chip = 'Tico'
-Dale = 'Teco'
-JailbirdDale = 'Pássaro de cadeia Teco'
-PoliceChip = 'Polícia Tico'
-lTheBrrrgh = 'O Brrrgh'
-lDaisyGardens = 'Jardim da Margarida'
-lDonaldsDock = 'Porto do Donald'
-lDonaldsDreamland = 'Sonholândia do Donald'
 lMinniesMelodyland = 'Melodilândia da Minnie'
 lToontownCentral = 'Centro de Toontown'
 lToonHQ = 'Quartel dos Toons'
@@ -67,21 +77,20 @@ lGoofySpeedway = 'Autódromo do Pateta'
 lOutdoorZone = 'Bosque de Bolotas de Tico e Teco'
 lGolfZone = 'Minigolfe de Tico e Teco'
 lPartyHood = 'Terra das Festas'
-GlobalStreetNames = {
-    20000: ('para o', 'no', 'Terraço do Tutorial'),
-    1000: ('para o', 'no', 'Parque'),
-    1100: ('para o', 'no', 'Boulevard das Cracas'),
-    1200: ('para a', 'na', 'Rua da Alga Marinha'),
-    1300: ('para a', 'na', 'Travessa do Farol'),
-    2000: ('para o', 'no', 'Parque'),
-    2100: ('para a', 'na', 'Rua da Bobeira'),
-    2200: ('para a', 'na', 'Travessa dos Tontos'),
-    2300: ('para o', 'no', 'Largo do Auge da Graça'),
-    3000: ('para o', 'no', 'Parque'),
-    3100: ('para a', 'na', 'Via dos Leões Marinhos'),
-    3200: ('para a', 'na', 'Rua da Chuva de Neve'),
-    3300: ('para o', 'no', 'Lugar Polar'),
-    4000: ('para o', 'no', 'Parque'),
+GlobalStreetNames = {20000: ('para o', 'no', 'Terraço do Tutorial'),
+ 1000: ('para o', 'no', 'Parque'),
+ 1100: ('para o', 'no', 'Boulevard das Cracas'),
+ 1200: ('para a', 'na', 'Rua da Alga Marinha'),
+ 1300: ('para a', 'na', 'Travessa do Farol'),
+ 2000: ('para o', 'no', 'Parque'),
+ 2100: ('para a', 'na', 'Rua da Bobeira'),
+ 2200: ('para a', 'na', 'Travessa dos Tontos'),
+ 2300: ('para o', 'no', 'Largo do Auge da Graça'),
+ 3000: ('para o', 'no', 'Parque'),
+ 3100: ('para a', 'na', 'Via dos Leões Marinhos'),
+ 3200: ('para a', 'na', 'Rua da Chuva de Neve'),
+ 3300: ('para o', 'no', 'Lugar Polar'),
+ 4000: ('para o', 'no', 'Parque'),
     4100: ('para a', 'na', 'Avenida do Tom Alto'),
     4200: ('para o', 'no', 'Boulevard do Barítono'),
     4300: ('para o', 'no', 'Terraço do Tenor'),
@@ -89,8 +98,6 @@ GlobalStreetNames = {
     5100: ('para a', 'na', 'Rua das Nogueiras'),
     5200: ('para a', 'na', 'Rua das Amendoeiras'),
     5300: ('para a', 'na', 'Rua dos Carvalhos'),
-    6100: ('para o', 'no', 'Bosque de Coníferas'),
-    7100: ('para o', 'no', 'Boulevard da Latida'),
     7200: ('para a', 'na', '??? TO DO'),
     7300: ('para a', 'na', '??? TO DO'),
     9000: ('para o', 'no', 'Parque'),
